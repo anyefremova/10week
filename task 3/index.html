@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-block {
+            display: flex;
+        }
+
+        img {
+            max-width: 50vw;
+            margin: auto;
+        }
+
+        .button-block {
+            margin: 2vw 0vw;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        button {
+            width: 20vw;
+            height: 5vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-block">
+        <img src="img1.jpg" alt="самоед" id="img">
+    </div>
+    <div class="button-block">
+        <button class="button1" onclick="FirstImage()">Previous</button>
+        <button class="button2" onclick="SecondImage()">Next</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
